@@ -1,0 +1,388 @@
+{
+  "id": "banco",
+  "instituicao": "UniESBAM",
+  "disciplina": "Modelagem de Banco de Dados",
+  "turma": "10620261M",
+  "questoes": [
+    {
+      "tema": "Especialização",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Especialização.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual mapeamento preserva especialização de PESSOA em ESTUDANTE e DOCENTE? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Criar PESSOA e tabelas especializadas referenciando sua chave",
+        "Guardar cada matrícula em uma coluna com vários valores",
+        "Dispensar chaves estrangeiras entre as entidades",
+        "Duplicar todas as informações sem identificadores comuns"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Especialização: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa não atende ao objetivo de Especialização: guardar cada matrícula em uma coluna com vários valores. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa não atende ao objetivo de Especialização: dispensar chaves estrangeiras entre as entidades. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa não atende ao objetivo de Especialização: duplicar todas as informações sem identificadores comuns. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Especialização: criar PESSOA e tabelas especializadas referenciando sua chave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Entidade associativa",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Entidade associativa.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo modelar matrículas entre estudantes e disciplinas? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Criar matrícula sem vínculo identificável com estudante",
+        "Adicionar uma lista de estudantes em uma única célula de DISCIPLINA",
+        "Eliminar a tabela de estudantes quando houver matrícula",
+        "Criar MATRÍCULA com FKs para as entidades e atributos do vínculo"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Entidade associativa: criar matrícula sem vínculo identificável com estudante. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa não atende ao objetivo de Entidade associativa: adicionar uma lista de estudantes em uma única célula de DISCIPLINA. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa não atende ao objetivo de Entidade associativa: eliminar a tabela de estudantes quando houver matrícula. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa aplica corretamente o conceito de Entidade associativa: criar MATRÍCULA com FKs para as entidades e atributos do vínculo."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Entidade associativa: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Chaves e integridade",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Chaves e integridade.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual é uma boa PK para ITEM_PEDIDO quando um produto aparece uma vez por pedido? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar nome do cliente como chave de cada item",
+        "Usar preço unitário como chave única de todo item",
+        "Usar chave composta id_pedido e id_produto, ambos como FKs",
+        "Evitar restrições referenciais para simplificar exclusões"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: usar nome do cliente como chave de cada item. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: usar preço unitário como chave única de todo item. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa aplica corretamente o conceito de Chaves e integridade: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: evitar restrições referenciais para simplificar exclusões. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Chaves e integridade: usar chave composta id_pedido e id_produto, ambos como FKs.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Primeira forma normal",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Primeira forma normal.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo corrigir telefones múltiplos em um mesmo campo? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Excluir todos os telefones para garantir unicidade",
+        "Repetir colunas telefone1 até telefone20 indefinidamente",
+        "Armazenar números separados por vírgula na mesma coluna",
+        "Separar valores atômicos e modelar telefones em registros relacionados"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: excluir todos os telefones para garantir unicidade. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: repetir colunas telefone1 até telefone20 indefinidamente. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: armazenar números separados por vírgula na mesma coluna. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa aplica corretamente o conceito de Primeira forma normal: separar valores atômicos e modelar telefones em registros relacionados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Primeira forma normal: separar valores atômicos e modelar telefones em registros relacionados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Segunda forma normal",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Segunda forma normal.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nO que fazer com um atributo dependente de apenas parte da chave composta? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Manter o atributo porque toda chave composta dispensa normalização",
+        "Substituir todas as chaves primárias por textos livres",
+        "Decompor a tabela para remover dependência parcial de atributo não-chave",
+        "Criar apenas mais um índice sem alterar as dependências"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: manter o atributo porque toda chave composta dispensa normalização. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: substituir todas as chaves primárias por textos livres. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa aplica corretamente o conceito de Segunda forma normal: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: criar apenas mais um índice sem alterar as dependências. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Segunda forma normal: decompor a tabela para remover dependência parcial de atributo não-chave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Terceira forma normal",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Terceira forma normal.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo tratar categoria_nome dependente de id_categoria em PRODUTO? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Ignorar dependências transitivas por não causarem anomalias",
+        "Duplicar categoria_nome em cada pedido e item",
+        "Colocar todos os dados da categoria no campo descrição do produto",
+        "Manter a categoria em tabela própria e relacioná-la por FK"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: ignorar dependências transitivas por não causarem anomalias. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: duplicar categoria_nome em cada pedido e item. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: colocar todos os dados da categoria no campo descrição do produto. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa aplica corretamente o conceito de Terceira forma normal: manter a categoria em tabela própria e relacioná-la por FK."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Terceira forma normal: manter a categoria em tabela própria e relacioná-la por FK.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "BCNF",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de BCNF.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual condição define BCNF em relação às dependências funcionais? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Todos os atributos precisam ser numéricos",
+        "Todo determinante de dependência funcional não trivial deve ser superchave",
+        "Não podem existir atributos opcionais de qualquer espécie",
+        "Toda tabela precisa ter exatamente duas chaves estrangeiras"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de BCNF: todos os atributos precisam ser numéricos. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa aplica corretamente o conceito de BCNF: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa não atende ao objetivo de BCNF: não podem existir atributos opcionais de qualquer espécie. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa não atende ao objetivo de BCNF: toda tabela precisa ter exatamente duas chaves estrangeiras. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de BCNF: todo determinante de dependência funcional não trivial deve ser superchave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Álgebra relacional",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Álgebra relacional.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual operação seleciona colunas específicas de uma relação? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "União, que empilha tuplas de relações compatíveis",
+        "Diferença, que remove tuplas presentes em outra relação",
+        "Seleção, que filtra somente linhas por predicado",
+        "Projeção, escolhendo os atributos desejados"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: união, que empilha tuplas de relações compatíveis. A solução adequada é: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: diferença, que remove tuplas presentes em outra relação. A solução adequada é: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: seleção, que filtra somente linhas por predicado. A solução adequada é: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa aplica corretamente o conceito de Álgebra relacional: projeção, escolhendo os atributos desejados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Álgebra relacional: projeção, escolhendo os atributos desejados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "LEFT JOIN",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de LEFT JOIN.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo listar todos os clientes, inclusive os sem pedidos? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar INNER JOIN e exigir pedido existente",
+        "Usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente",
+        "Filtrar apenas pedidos cujo valor é maior que zero",
+        "Começar por PEDIDO e remover clientes sem compra"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: usar INNER JOIN e exigir pedido existente. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa aplica corretamente o conceito de LEFT JOIN: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: filtrar apenas pedidos cujo valor é maior que zero. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: começar por PEDIDO e remover clientes sem compra. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de LEFT JOIN: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Dicionário de dados",
+      "pergunta": "Na disciplina de Modelagem de Banco de Dados, uma situação profissional exige a aplicação dos conceitos de Dicionário de dados.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual artefato documenta nomes, tipos e restrições dos atributos? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Dicionário de dados com metadados e regras de cada campo",
+        "Um gráfico de vendas sem definição dos campos",
+        "Somente a lista de senhas de usuários",
+        "Uma captura de tela da consulta sem esquema"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Dicionário de dados: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: um gráfico de vendas sem definição dos campos. A solução adequada é: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: somente a lista de senhas de usuários. A solução adequada é: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: uma captura de tela da consulta sem esquema. A solução adequada é: dicionário de dados com metadados e regras de cada campo."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Dicionário de dados: dicionário de dados com metadados e regras de cada campo.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Especialização",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Especialização.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual mapeamento preserva especialização de PESSOA em ESTUDANTE e DOCENTE? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Dispensar chaves estrangeiras entre as entidades",
+        "Criar PESSOA e tabelas especializadas referenciando sua chave",
+        "Guardar cada matrícula em uma coluna com vários valores",
+        "Duplicar todas as informações sem identificadores comuns"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Especialização: dispensar chaves estrangeiras entre as entidades. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa aplica corretamente o conceito de Especialização: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa não atende ao objetivo de Especialização: guardar cada matrícula em uma coluna com vários valores. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave.",
+        "Esta alternativa não atende ao objetivo de Especialização: duplicar todas as informações sem identificadores comuns. A solução adequada é: criar PESSOA e tabelas especializadas referenciando sua chave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Especialização: criar PESSOA e tabelas especializadas referenciando sua chave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Entidade associativa",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Entidade associativa.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo modelar matrículas entre estudantes e disciplinas? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Eliminar a tabela de estudantes quando houver matrícula",
+        "Criar MATRÍCULA com FKs para as entidades e atributos do vínculo",
+        "Criar matrícula sem vínculo identificável com estudante",
+        "Adicionar uma lista de estudantes em uma única célula de DISCIPLINA"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Entidade associativa: eliminar a tabela de estudantes quando houver matrícula. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa aplica corretamente o conceito de Entidade associativa: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa não atende ao objetivo de Entidade associativa: criar matrícula sem vínculo identificável com estudante. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+        "Esta alternativa não atende ao objetivo de Entidade associativa: adicionar uma lista de estudantes em uma única célula de DISCIPLINA. A solução adequada é: criar MATRÍCULA com FKs para as entidades e atributos do vínculo."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Entidade associativa: criar MATRÍCULA com FKs para as entidades e atributos do vínculo.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Chaves e integridade",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Chaves e integridade.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual é uma boa PK para ITEM_PEDIDO quando um produto aparece uma vez por pedido? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar chave composta id_pedido e id_produto, ambos como FKs",
+        "Usar nome do cliente como chave de cada item",
+        "Evitar restrições referenciais para simplificar exclusões",
+        "Usar preço unitário como chave única de todo item"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Chaves e integridade: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: usar nome do cliente como chave de cada item. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: evitar restrições referenciais para simplificar exclusões. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs.",
+        "Esta alternativa não atende ao objetivo de Chaves e integridade: usar preço unitário como chave única de todo item. A solução adequada é: usar chave composta id_pedido e id_produto, ambos como FKs."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Chaves e integridade: usar chave composta id_pedido e id_produto, ambos como FKs.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Primeira forma normal",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Primeira forma normal.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo corrigir telefones múltiplos em um mesmo campo? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Repetir colunas telefone1 até telefone20 indefinidamente",
+        "Separar valores atômicos e modelar telefones em registros relacionados",
+        "Armazenar números separados por vírgula na mesma coluna",
+        "Excluir todos os telefones para garantir unicidade"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: repetir colunas telefone1 até telefone20 indefinidamente. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa aplica corretamente o conceito de Primeira forma normal: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: armazenar números separados por vírgula na mesma coluna. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados.",
+        "Esta alternativa não atende ao objetivo de Primeira forma normal: excluir todos os telefones para garantir unicidade. A solução adequada é: separar valores atômicos e modelar telefones em registros relacionados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Primeira forma normal: separar valores atômicos e modelar telefones em registros relacionados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Segunda forma normal",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Segunda forma normal.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nO que fazer com um atributo dependente de apenas parte da chave composta? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Substituir todas as chaves primárias por textos livres",
+        "Criar apenas mais um índice sem alterar as dependências",
+        "Decompor a tabela para remover dependência parcial de atributo não-chave",
+        "Manter o atributo porque toda chave composta dispensa normalização"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: substituir todas as chaves primárias por textos livres. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: criar apenas mais um índice sem alterar as dependências. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa aplica corretamente o conceito de Segunda forma normal: decompor a tabela para remover dependência parcial de atributo não-chave.",
+        "Esta alternativa não atende ao objetivo de Segunda forma normal: manter o atributo porque toda chave composta dispensa normalização. A solução adequada é: decompor a tabela para remover dependência parcial de atributo não-chave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Segunda forma normal: decompor a tabela para remover dependência parcial de atributo não-chave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Terceira forma normal",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Terceira forma normal.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo tratar categoria_nome dependente de id_categoria em PRODUTO? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Colocar todos os dados da categoria no campo descrição do produto",
+        "Duplicar categoria_nome em cada pedido e item",
+        "Manter a categoria em tabela própria e relacioná-la por FK",
+        "Ignorar dependências transitivas por não causarem anomalias"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: colocar todos os dados da categoria no campo descrição do produto. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: duplicar categoria_nome em cada pedido e item. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa aplica corretamente o conceito de Terceira forma normal: manter a categoria em tabela própria e relacioná-la por FK.",
+        "Esta alternativa não atende ao objetivo de Terceira forma normal: ignorar dependências transitivas por não causarem anomalias. A solução adequada é: manter a categoria em tabela própria e relacioná-la por FK."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Terceira forma normal: manter a categoria em tabela própria e relacioná-la por FK.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "BCNF",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a BCNF.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual condição define BCNF em relação às dependências funcionais? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Não podem existir atributos opcionais de qualquer espécie",
+        "Todo determinante de dependência funcional não trivial deve ser superchave",
+        "Todos os atributos precisam ser numéricos",
+        "Toda tabela precisa ter exatamente duas chaves estrangeiras"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de BCNF: não podem existir atributos opcionais de qualquer espécie. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa aplica corretamente o conceito de BCNF: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa não atende ao objetivo de BCNF: todos os atributos precisam ser numéricos. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave.",
+        "Esta alternativa não atende ao objetivo de BCNF: toda tabela precisa ter exatamente duas chaves estrangeiras. A solução adequada é: todo determinante de dependência funcional não trivial deve ser superchave."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de BCNF: todo determinante de dependência funcional não trivial deve ser superchave.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Álgebra relacional",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Álgebra relacional.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual operação seleciona colunas específicas de uma relação? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Projeção, escolhendo os atributos desejados",
+        "Seleção, que filtra somente linhas por predicado",
+        "Diferença, que remove tuplas presentes em outra relação",
+        "União, que empilha tuplas de relações compatíveis"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Álgebra relacional: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: seleção, que filtra somente linhas por predicado. A solução adequada é: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: diferença, que remove tuplas presentes em outra relação. A solução adequada é: projeção, escolhendo os atributos desejados.",
+        "Esta alternativa não atende ao objetivo de Álgebra relacional: união, que empilha tuplas de relações compatíveis. A solução adequada é: projeção, escolhendo os atributos desejados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Álgebra relacional: projeção, escolhendo os atributos desejados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "LEFT JOIN",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a LEFT JOIN.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo listar todos os clientes, inclusive os sem pedidos? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente",
+        "Usar INNER JOIN e exigir pedido existente",
+        "Começar por PEDIDO e remover clientes sem compra",
+        "Filtrar apenas pedidos cujo valor é maior que zero"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de LEFT JOIN: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: usar INNER JOIN e exigir pedido existente. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: começar por PEDIDO e remover clientes sem compra. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+        "Esta alternativa não atende ao objetivo de LEFT JOIN: filtrar apenas pedidos cujo valor é maior que zero. A solução adequada é: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de LEFT JOIN: usar LEFT JOIN de CLIENTE para PEDIDO pela chave do cliente.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Dicionário de dados",
+      "pergunta": "Em um laboratório de Modelagem de Banco de Dados, um grupo deverá propor uma solução relacionada a Dicionário de dados.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual artefato documenta nomes, tipos e restrições dos atributos? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Somente a lista de senhas de usuários",
+        "Uma captura de tela da consulta sem esquema",
+        "Dicionário de dados com metadados e regras de cada campo",
+        "Um gráfico de vendas sem definição dos campos"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: somente a lista de senhas de usuários. A solução adequada é: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: uma captura de tela da consulta sem esquema. A solução adequada é: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa aplica corretamente o conceito de Dicionário de dados: dicionário de dados com metadados e regras de cada campo.",
+        "Esta alternativa não atende ao objetivo de Dicionário de dados: um gráfico de vendas sem definição dos campos. A solução adequada é: dicionário de dados com metadados e regras de cada campo."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Dicionário de dados: dicionário de dados com metadados e regras de cada campo.",
+      "pontos": 0.5
+    }
+  ]
+}
