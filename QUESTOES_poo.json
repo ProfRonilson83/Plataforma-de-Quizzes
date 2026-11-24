@@ -1,0 +1,388 @@
+{
+  "id": "poo",
+  "instituicao": "UniESBAM",
+  "disciplina": "Programação Orientada a Objetos",
+  "turma": "10620261M",
+  "questoes": [
+    {
+      "tema": "Exceções try catch",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de Exceções try catch.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo tratar falha de conversão de texto para inteiro em Java? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Ignorar a exceção porque Java converte qualquer texto",
+        "Usar try para o código e catch para a exceção específica",
+        "Usar somente finally como substituto de catch",
+        "Remover a validação e executar o processo sem controle"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Exceções try catch: ignorar a exceção porque Java converte qualquer texto. A solução adequada é: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa aplica corretamente o conceito de Exceções try catch: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa não atende ao objetivo de Exceções try catch: usar somente finally como substituto de catch. A solução adequada é: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa não atende ao objetivo de Exceções try catch: remover a validação e executar o processo sem controle. A solução adequada é: usar try para o código e catch para a exceção específica."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Exceções try catch: usar try para o código e catch para a exceção específica.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "throw e throws",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de throw e throws.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual é a diferença correta entre throw e throws? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "throw lança uma exceção e throws declara possibilidades na assinatura",
+        "throws captura exceções e throw sempre as ignora",
+        "throw declara dependências Maven e throws abre uma conexão",
+        "Ambos servem apenas para criar objetos Swing"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de throw e throws: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: throws captura exceções e throw sempre as ignora. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: throw declara dependências Maven e throws abre uma conexão. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: ambos servem apenas para criar objetos Swing. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de throw e throws: throw lança uma exceção e throws declara possibilidades na assinatura.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "finally",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de finally.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual é o propósito adequado do bloco finally? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM",
+        "Substituir a necessidade de liberar conexões com recursos",
+        "Garantir que uma transação sempre seja confirmada",
+        "Executar apenas se não houver qualquer exceção"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de finally: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa não atende ao objetivo de finally: substituir a necessidade de liberar conexões com recursos. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa não atende ao objetivo de finally: garantir que uma transação sempre seja confirmada. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa não atende ao objetivo de finally: executar apenas se não houver qualquer exceção. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de finally: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Interfaces",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de Interfaces.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nComo uma classe Java declara implementação de interface? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar final para gerar todos os métodos automaticamente",
+        "Usar extends obrigatoriamente para toda interface",
+        "Usar import como substituto da implementação",
+        "Usar implements e fornecer métodos exigidos conforme o contrato"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Interfaces: usar final para gerar todos os métodos automaticamente. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa não atende ao objetivo de Interfaces: usar extends obrigatoriamente para toda interface. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa não atende ao objetivo de Interfaces: usar import como substituto da implementação. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa aplica corretamente o conceito de Interfaces: usar implements e fornecer métodos exigidos conforme o contrato."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Interfaces: usar implements e fornecer métodos exigidos conforme o contrato.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "final",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de final.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual efeito de declarar uma classe Java como final? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Impedir todos os métodos de serem executados",
+        "Tornar os atributos automaticamente públicos",
+        "Impedir que a classe seja estendida por subclasses",
+        "Obrigar a classe a ser abstrata"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de final: impedir todos os métodos de serem executados. A solução adequada é: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa não atende ao objetivo de final: tornar os atributos automaticamente públicos. A solução adequada é: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa aplica corretamente o conceito de final: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa não atende ao objetivo de final: obrigar a classe a ser abstrata. A solução adequada é: impedir que a classe seja estendida por subclasses."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de final: impedir que a classe seja estendida por subclasses.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Swing JFrame",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de Swing JFrame.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual componente representa a janela principal Swing? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "JLabel, que gerencia o ciclo de vida da janela",
+        "JTextField, que representa o contêiner principal",
+        "JButton, utilizado apenas para abertura de janelas",
+        "JFrame, que fornece estrutura de janela de aplicação"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jLabel, que gerencia o ciclo de vida da janela. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jTextField, que representa o contêiner principal. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jButton, utilizado apenas para abertura de janelas. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa aplica corretamente o conceito de Swing JFrame: jFrame, que fornece estrutura de janela de aplicação."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Swing JFrame: jFrame, que fornece estrutura de janela de aplicação.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "ActionListener",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de ActionListener.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual mecanismo trata o clique de um JButton? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar apenas uma anotação @Override sem listener",
+        "Declarar o botão como interface sem instanciá-lo",
+        "Associar um ActionListener e implementar a ação do evento",
+        "Atribuir SQL diretamente ao atributo text do botão"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de ActionListener: usar apenas uma anotação @Override sem listener. A solução adequada é: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa não atende ao objetivo de ActionListener: declarar o botão como interface sem instanciá-lo. A solução adequada é: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa aplica corretamente o conceito de ActionListener: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa não atende ao objetivo de ActionListener: atribuir SQL diretamente ao atributo text do botão. A solução adequada é: associar um ActionListener e implementar a ação do evento."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de ActionListener: associar um ActionListener e implementar a ação do evento.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "ArrayList",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de ArrayList.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual comportamento caracteriza ArrayList em Java? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Oferecer acesso somente pela primeira e última posição",
+        "Ordenar automaticamente todo elemento em ordem alfabética",
+        "Impedir qualquer duplicação por regra interna",
+        "Preservar ordem de inserção e permitir elementos duplicados"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de ArrayList: oferecer acesso somente pela primeira e última posição. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa não atende ao objetivo de ArrayList: ordenar automaticamente todo elemento em ordem alfabética. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa não atende ao objetivo de ArrayList: impedir qualquer duplicação por regra interna. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa aplica corretamente o conceito de ArrayList: preservar ordem de inserção e permitir elementos duplicados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de ArrayList: preservar ordem de inserção e permitir elementos duplicados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "PreparedStatement",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de PreparedStatement.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual prática ajuda a evitar SQL injection em comandos JDBC? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Concatenar diretamente todas as entradas do usuário no SQL",
+        "Usar consultas parametrizadas com PreparedStatement",
+        "Desligar validação e confiar no conteúdo do formulário",
+        "Substituir o SQL por comentários no código"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de PreparedStatement: concatenar diretamente todas as entradas do usuário no SQL. A solução adequada é: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa aplica corretamente o conceito de PreparedStatement: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa não atende ao objetivo de PreparedStatement: desligar validação e confiar no conteúdo do formulário. A solução adequada é: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa não atende ao objetivo de PreparedStatement: substituir o SQL por comentários no código. A solução adequada é: usar consultas parametrizadas com PreparedStatement."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de PreparedStatement: usar consultas parametrizadas com PreparedStatement.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Camadas",
+      "pergunta": "Na disciplina de Programação Orientada a Objetos, uma situação profissional exige a aplicação dos conceitos de Camadas.\nUma equipe de desenvolvimento recebeu um projeto real para modernizar os procedimentos de uma instituição.\nDurante o planejamento, os analistas identificaram a necessidade de oferecer um sistema seguro e de fácil manutenção.\nOs usuários precisam trabalhar com informações confiáveis e consultar resultados de forma consistente.\nA equipe encontrou alternativas técnicas diferentes e deverá justificar sua decisão antes da implantação.\nQual distribuição de responsabilidades favorece a manutenção? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Repetir toda a regra de negócio em cada tela",
+        "Usar uma única classe global para interfaces e banco sem testes",
+        "Colocar SQL e validação diretamente em cada botão da interface",
+        "Separar interface, serviço de negócio e persistência em componentes próprios"
+      ],
+      "correta": 3,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Camadas: repetir toda a regra de negócio em cada tela. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa não atende ao objetivo de Camadas: usar uma única classe global para interfaces e banco sem testes. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa não atende ao objetivo de Camadas: colocar SQL e validação diretamente em cada botão da interface. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa aplica corretamente o conceito de Camadas: separar interface, serviço de negócio e persistência em componentes próprios."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Camadas: separar interface, serviço de negócio e persistência em componentes próprios.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Exceções try catch",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a Exceções try catch.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo tratar falha de conversão de texto para inteiro em Java? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar try para o código e catch para a exceção específica",
+        "Usar somente finally como substituto de catch",
+        "Remover a validação e executar o processo sem controle",
+        "Ignorar a exceção porque Java converte qualquer texto"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Exceções try catch: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa não atende ao objetivo de Exceções try catch: usar somente finally como substituto de catch. A solução adequada é: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa não atende ao objetivo de Exceções try catch: remover a validação e executar o processo sem controle. A solução adequada é: usar try para o código e catch para a exceção específica.",
+        "Esta alternativa não atende ao objetivo de Exceções try catch: ignorar a exceção porque Java converte qualquer texto. A solução adequada é: usar try para o código e catch para a exceção específica."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Exceções try catch: usar try para o código e catch para a exceção específica.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "throw e throws",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a throw e throws.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual é a diferença correta entre throw e throws? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "throw lança uma exceção e throws declara possibilidades na assinatura",
+        "throw declara dependências Maven e throws abre uma conexão",
+        "throws captura exceções e throw sempre as ignora",
+        "Ambos servem apenas para criar objetos Swing"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de throw e throws: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: throw declara dependências Maven e throws abre uma conexão. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: throws captura exceções e throw sempre as ignora. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura.",
+        "Esta alternativa não atende ao objetivo de throw e throws: ambos servem apenas para criar objetos Swing. A solução adequada é: throw lança uma exceção e throws declara possibilidades na assinatura."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de throw e throws: throw lança uma exceção e throws declara possibilidades na assinatura.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "finally",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a finally.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual é o propósito adequado do bloco finally? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Garantir que uma transação sempre seja confirmada",
+        "Executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM",
+        "Substituir a necessidade de liberar conexões com recursos",
+        "Executar apenas se não houver qualquer exceção"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de finally: garantir que uma transação sempre seja confirmada. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa aplica corretamente o conceito de finally: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa não atende ao objetivo de finally: substituir a necessidade de liberar conexões com recursos. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+        "Esta alternativa não atende ao objetivo de finally: executar apenas se não houver qualquer exceção. A solução adequada é: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de finally: executar limpeza ao término do try/catch, ressalvadas interrupções excepcionais da JVM.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Interfaces",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a Interfaces.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nComo uma classe Java declara implementação de interface? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Usar import como substituto da implementação",
+        "Usar implements e fornecer métodos exigidos conforme o contrato",
+        "Usar final para gerar todos os métodos automaticamente",
+        "Usar extends obrigatoriamente para toda interface"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Interfaces: usar import como substituto da implementação. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa aplica corretamente o conceito de Interfaces: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa não atende ao objetivo de Interfaces: usar final para gerar todos os métodos automaticamente. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato.",
+        "Esta alternativa não atende ao objetivo de Interfaces: usar extends obrigatoriamente para toda interface. A solução adequada é: usar implements e fornecer métodos exigidos conforme o contrato."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Interfaces: usar implements e fornecer métodos exigidos conforme o contrato.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "final",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a final.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual efeito de declarar uma classe Java como final? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Impedir que a classe seja estendida por subclasses",
+        "Impedir todos os métodos de serem executados",
+        "Obrigar a classe a ser abstrata",
+        "Tornar os atributos automaticamente públicos"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de final: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa não atende ao objetivo de final: impedir todos os métodos de serem executados. A solução adequada é: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa não atende ao objetivo de final: obrigar a classe a ser abstrata. A solução adequada é: impedir que a classe seja estendida por subclasses.",
+        "Esta alternativa não atende ao objetivo de final: tornar os atributos automaticamente públicos. A solução adequada é: impedir que a classe seja estendida por subclasses."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de final: impedir que a classe seja estendida por subclasses.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Swing JFrame",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a Swing JFrame.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual componente representa a janela principal Swing? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "JTextField, que representa o contêiner principal",
+        "JFrame, que fornece estrutura de janela de aplicação",
+        "JButton, utilizado apenas para abertura de janelas",
+        "JLabel, que gerencia o ciclo de vida da janela"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jTextField, que representa o contêiner principal. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa aplica corretamente o conceito de Swing JFrame: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jButton, utilizado apenas para abertura de janelas. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação.",
+        "Esta alternativa não atende ao objetivo de Swing JFrame: jLabel, que gerencia o ciclo de vida da janela. A solução adequada é: jFrame, que fornece estrutura de janela de aplicação."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Swing JFrame: jFrame, que fornece estrutura de janela de aplicação.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "ActionListener",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a ActionListener.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual mecanismo trata o clique de um JButton? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Declarar o botão como interface sem instanciá-lo",
+        "Atribuir SQL diretamente ao atributo text do botão",
+        "Associar um ActionListener e implementar a ação do evento",
+        "Usar apenas uma anotação @Override sem listener"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de ActionListener: declarar o botão como interface sem instanciá-lo. A solução adequada é: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa não atende ao objetivo de ActionListener: atribuir SQL diretamente ao atributo text do botão. A solução adequada é: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa aplica corretamente o conceito de ActionListener: associar um ActionListener e implementar a ação do evento.",
+        "Esta alternativa não atende ao objetivo de ActionListener: usar apenas uma anotação @Override sem listener. A solução adequada é: associar um ActionListener e implementar a ação do evento."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de ActionListener: associar um ActionListener e implementar a ação do evento.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "ArrayList",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a ArrayList.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual comportamento caracteriza ArrayList em Java? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Impedir qualquer duplicação por regra interna",
+        "Ordenar automaticamente todo elemento em ordem alfabética",
+        "Preservar ordem de inserção e permitir elementos duplicados",
+        "Oferecer acesso somente pela primeira e última posição"
+      ],
+      "correta": 2,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de ArrayList: impedir qualquer duplicação por regra interna. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa não atende ao objetivo de ArrayList: ordenar automaticamente todo elemento em ordem alfabética. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa aplica corretamente o conceito de ArrayList: preservar ordem de inserção e permitir elementos duplicados.",
+        "Esta alternativa não atende ao objetivo de ArrayList: oferecer acesso somente pela primeira e última posição. A solução adequada é: preservar ordem de inserção e permitir elementos duplicados."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de ArrayList: preservar ordem de inserção e permitir elementos duplicados.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "PreparedStatement",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a PreparedStatement.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual prática ajuda a evitar SQL injection em comandos JDBC? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Desligar validação e confiar no conteúdo do formulário",
+        "Usar consultas parametrizadas com PreparedStatement",
+        "Concatenar diretamente todas as entradas do usuário no SQL",
+        "Substituir o SQL por comentários no código"
+      ],
+      "correta": 1,
+      "comentarios": [
+        "Esta alternativa não atende ao objetivo de PreparedStatement: desligar validação e confiar no conteúdo do formulário. A solução adequada é: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa aplica corretamente o conceito de PreparedStatement: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa não atende ao objetivo de PreparedStatement: concatenar diretamente todas as entradas do usuário no SQL. A solução adequada é: usar consultas parametrizadas com PreparedStatement.",
+        "Esta alternativa não atende ao objetivo de PreparedStatement: substituir o SQL por comentários no código. A solução adequada é: usar consultas parametrizadas com PreparedStatement."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de PreparedStatement: usar consultas parametrizadas com PreparedStatement.",
+      "pontos": 0.5
+    },
+    {
+      "tema": "Camadas",
+      "pergunta": "Em um laboratório de Programação Orientada a Objetos, um grupo deverá propor uma solução relacionada a Camadas.\nUma organização ampliou seus serviços e passou a depender de aplicações utilizadas por várias pessoas.\nNa revisão do projeto, foram detectados riscos de inconsistência e dúvidas sobre a solução escolhida.\nO responsável técnico solicitou que os estudantes avaliassem os impactos da decisão na operação cotidiana.\nA escolha deve respeitar os conceitos da disciplina e oferecer uma solução tecnicamente fundamentada.\nQual distribuição de responsabilidades favorece a manutenção? Assinale a alternativa tecnicamente mais adequada.",
+      "opcoes": [
+        "Separar interface, serviço de negócio e persistência em componentes próprios",
+        "Colocar SQL e validação diretamente em cada botão da interface",
+        "Usar uma única classe global para interfaces e banco sem testes",
+        "Repetir toda a regra de negócio em cada tela"
+      ],
+      "correta": 0,
+      "comentarios": [
+        "Esta alternativa aplica corretamente o conceito de Camadas: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa não atende ao objetivo de Camadas: colocar SQL e validação diretamente em cada botão da interface. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa não atende ao objetivo de Camadas: usar uma única classe global para interfaces e banco sem testes. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios.",
+        "Esta alternativa não atende ao objetivo de Camadas: repetir toda a regra de negócio em cada tela. A solução adequada é: separar interface, serviço de negócio e persistência em componentes próprios."
+      ],
+      "explicacao": "Esta alternativa aplica corretamente o conceito de Camadas: separar interface, serviço de negócio e persistência em componentes próprios.",
+      "pontos": 0.5
+    }
+  ]
+}
