@@ -1,5 +1,3 @@
-// Configuração pública do aplicativo Web Firebase da plataforma de 7 disciplinas.
-// Não inclua senhas ou credenciais privadas neste arquivo.
 window.QUIZ_CONFIG = {
   firebase: {
     apiKey: "AIzaSyCdWd1RvZ6Vq_65TzJMirxtAkoVjrZTcE4",
