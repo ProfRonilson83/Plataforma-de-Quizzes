@@ -1,9 +1,11 @@
+// Configuração pública do aplicativo Web Firebase da plataforma de 7 disciplinas.
+// Não inclua senhas ou credenciais privadas neste arquivo.
 window.QUIZ_CONFIG = {
   firebase: {
-    apiKey: "SUA_NOVA_API_KEY",
+    apiKey: "AIzaSyCdWd1RvZ6Vq_65TzJMirxtAkoVjrZTcE4",
     authDomain: "plataforma-quiz-2026.firebaseapp.com",
     projectId: "plataforma-quiz-2026",
-    appId: "SEU_NOVO_APP_ID"
+    appId: "1:499166837169:web:e209230c75ab48f701a590"
   },
   professorEmail: "ronilson.silva@esbam.edu.br",
   professorUid: "skgAGL0AquhmW9CIb6kJypYSi7s2"
